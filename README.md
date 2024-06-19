@@ -2,58 +2,6 @@
 
 Development of a simple **CI/CD** for the *SimpleBashUtils* project. Building, testing, deployment.
 
-The russian version of the task can be found in the repository.
-
-
-## Contents
-
-1. [Chapter I](#chapter-i)
-2. [Chapter II](#chapter-ii) \
-    2.1. [CI/CD basics](#ci-cd-basics)  
-    2.2. [CI basics](#ci-basics)  
-    2.3. [CD basics](#cd-basics)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Setting up the gitlab-runner](#part-1-setting-up-the-gitlab-runner)  
-    3.2. [Building](#part-2-building)  
-    3.3. [Codestyle test](#part-3-codestyle-test)   
-    3.4. [Integration tests](#part-4-integration-tests)  
-    3.5. [Deployment stage](#part-5-deployment-stage)  
-    3.6. [Bonus. Notifications](#part-6-bonus-notifications)  
-4. [Chapter IV](#chapter-iv)
-
-
-## Chapter I
-
-![basic_ci_cd](misc/images/basic_ci_cd.JPG)
-
-Planet Earth, ASI office, today.
-
-After arriving at the Port of London, you have had a few days to settle in and explore the city, and then comes the day you have to go to your new job.
-
-Today you arrive in a taxi at the door of the office of the company that brought you to Albion.
-In the letter you received the day you arrived, you were given the door code and your office number.
-Surprised by the empty corridors and the deathly silence, you descend a few floors to find your workstation.
-
-There you find a recently switched on computer and an intercom in a poor state of repair.
-As you enter and close the door behind you, a robotic voice comes out.
-
-"Welcome to the ASI lab's computerised experimental center. The analysis of your body's characteristics has been completed. We are ready to start."
-
-"You will be assisting with one of our experimental center projects. Your first task will be to create a **CI/CD** for the well-known **cat** and **grep** utilities."
-
-Before you begin, we would like to remind you that although learning through play is the main principle of the Experimental Centre, we cannot guarantee the absence of injury and trauma. For your own safety and the safety of others, please refrain from touching *bzzz* anything at all."
-
-
-## Chapter II
-
-"Your first task requires some explanation. Let me give you a brief introduction."
-
-*You could make out the most basic information from the speech that followed, as it felt accelerated by five.*
-
-### **CI/CD** basics
-
-Sadly... If something is always done "manually", it will either work poorly or not work at all.
-
 **CI/CD** is a set of principles and practices that enable more frequent and secure deployment of software changes.
 
 Reasons for using **CI/CD**:
@@ -149,7 +97,6 @@ Now I have readjusted the tests, making them more difficult and less flattering.
 
 ### Part 4. Integration tests
 
-"Great, the codestyle test is written. [WHISPERING] I'm talking to you in private. Don't tell anything to your colleagues. Between you and me, you're doing very well. [LOUDLY] Let's move on to writing integration tests."
 
 **== Task ==**
 
@@ -198,30 +145,3 @@ As a result, you should have applications from the *C2_SimpleBashUtils* (s21_cat
 ##### Set up notifications of successful/unsuccessful pipeline execution via bot named "[your nickname] DO6 CI/CD" in *Telegram*.
 - The text of the notification must contain information on the successful passing of both **CI** and **CD** stages.
 - The rest of the notification text may be arbitrary.
-
-
-## Chapter IV
-
-"Good. After completing a series of tasks, the employee should go to the break room."
-
-While you have a free moment in the break room you decide to check your mail, thinking about the weirdness of what is going on.
-
-
-Just before you take out your phone, another person enters the break room.
-
-"Hi! I haven't seen you here before."
-
-"That would be weird if you had. It's my first day here, huh."
-
-"Oh, first day! So, what do you think of our 'boss'?" the last words were spoken with an obvious grin.
-
-"That was the boss? Phew, I'm not the only one who thinks he's weird... and a bit rude? I thought you were all like that in England."
-
-"Haha, definitely not, mate. It's just a prank on the newbies, but don't worry everything will be fine tomorrow. By the way, here comes the real boss, looks like he's coming your way. Well, good luck, see you later."
-
-The stranger quickly disappeared and a short man in an expensive suit, slightly balding, in his early fifties or sixties, entered the room. Without waiting for you to speak, he said with a subtle, almost imperceptible smile:
-
-"Oh, you must be Thomas. A truly magnificent performance on the test piece. I hope you weren't intimidated by our dear friend ASI Junior, she spoke very highly of you. So, let me tell you more about what we do here in general and what your role is in our company..."
-
-
-💡 [Tap here](https://forms.yandex.ru/cloud/641819b3c09c022518e7a4f3/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
